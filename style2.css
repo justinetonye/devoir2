@@ -1,0 +1,169 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	letter-spacing: 1px;
+	line-height: 1.5em;
+	text-transform: initial;
+	overflow-x: hidden;
+}
+
+.navigation_principale {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo {
+	margin-left:4rem;
+	width:20%;
+	height: 50px;
+	
+}
+
+.menu {
+	display:flex;
+	justify-content:space-between;
+	width: 25%;
+	margin-right: 4rem;
+	
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration:none;
+	color:#0b0b54;
+}
+
+.banniere{
+	background: url('images/poisson.JPG') no-repeat center;
+	width:100%;
+	height:70vh;
+	object-fit: cover;
+	position: relative;
+	
+}
+
+.description{
+	position: absolute;
+	color: white;
+	width: 60%;
+	top: 25%;
+	padding-left: 2rem;
+	margin-left: 2rem;
+	background-color: rgb(89, 118, 138);
+	opacity: .85;
+}
+
+.description-1 {
+	font-size: 3em;
+	margin-bottom: 4rem;
+	opacity: 1 !important;
+}
+
+.plat-classique{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+	grid-gap: 4rem;
+	margin: 4rem 0;
+	padding: 0 4rem 0 4rem;
+
+}
+
+h2{
+	text-align: center;
+	margin: 3rem 0 4rem 0;
+
+}
+
+.ingredients{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+	grid-gap: 4rem;
+	margin: 4rem 0;
+	padding: 0 4rem 0 4rem;
+
+
+}
+
+.plat{
+	margin-left: 50%;
+	transform: translateX(-50%);
+	object-fit: cover;
+	width: 300px;
+	height: 200px;
+	
+
+}
+h4{
+	text-align: center;
+}
+
+footer{
+	background-color: rgb(34, 48, 48);
+	height: 7vh;
+	padding: 20px 4rem;
+	color: white;
+	opacity: .8;
+
+}
+
+/*
+style page1
+*/
+
+
+.banniere-page-1{
+	background: url('images/Ndole1.jpg') no-repeat center;
+	width:100%;
+	height:50vh;
+	object-fit: cover;
+	position: relative;
+	
+}
+
+
+
+
+.description-page-1, .description-page-2{
+	position: absolute;
+	color: white;
+	width: 60%;
+	top: 25%;
+	padding-left: 2rem;
+	margin-left: 4rem;
+	background-color: rgb(89, 118, 138);
+	opacity: .85;
+}
+.description-page {
+	margin: 3rem 4rem;
+}
+
+.plats-region {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+	grid-gap: 4rem;
+	margin: 4rem 0;
+	padding: 0 4rem 0 4rem;
+}
+
+h3 {
+	margin-left: 4rem;
+}
+
+
+/*
+	Style page2
+*/
+
+
+.banniere-page-2 {
+	background: url('images/pistash.jpg') no-repeat center;
+	width:100%;
+	height:50vh;
+	object-fit: cover;
+	position: relative;
+}
